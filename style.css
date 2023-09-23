@@ -1,0 +1,41 @@
+/* style.css */
+body {
+    margin: 0;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+#scene-container {
+    flex: 1;
+    position: relative;
+
+}
+
+.hero {
+    background-color: #000000;
+    background-image: url("pngwing.com.png");
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-left:10rem ;
+}
+
+.hero-content {
+    padding: 10rem;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #fff;
+}
